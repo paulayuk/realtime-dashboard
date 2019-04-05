@@ -43,7 +43,6 @@ function init () {
 		    }
 		});
     socket.on('updateChart', (data) => {
-            console.log(data);
 	     addData(myChart, data.label, data.value);
        });
 }
